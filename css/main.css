@@ -9,7 +9,7 @@ body, html {
   }
   .bg {
     /* The image used */
-    background-image: url("../img/snake2.jpg");
+    background-image: url("img/snake2.jpg");
   
     /* Full height */
     height: 50%;
