@@ -7,7 +7,7 @@ a {
 body, html {
     height: 100%;
   }
-  .bg {
+.bg {
     /* The image used */
     background-image: url("../img/Snake2.jpg");
   
@@ -19,3 +19,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+img.logo {
+    padding-bottom: 10px;
+}
