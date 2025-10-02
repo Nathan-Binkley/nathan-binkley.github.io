@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from './Navbar.module.css';
+import { Image } from '@mantine/core';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
             <div className={styles.navContainer}>
                 {/* Logo/Brand */}
                 <Link href="/" className={styles.brand}>
-                    Nathan Binkley
+                    <Image src="/NB.svg" alt="Logo" style={{ width: 48, height: 48 }} />
                 </Link>
 
                 {/* Desktop Navigation */}
