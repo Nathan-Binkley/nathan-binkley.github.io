@@ -51,6 +51,9 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Navigation */}
+            {isMenuOpen && (
+                <div className={styles.mobileMenuOverlay} onClick={() => setIsMenuOpen(false)} />
+            )}
             <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuOpen : ''}`}>
                 <Link href="/" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>
                     Home

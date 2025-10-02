@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Stack, Text } from "@mantine/core";
 
 export default function Home() {
   return (
-    <div
+    <Stack
       style={{
         display: "flex",
         flexDirection: "column",
@@ -14,10 +15,10 @@ export default function Home() {
         textAlign: "center",
       }}
     >
-      <span role="img" aria-label="hammer" style={{ fontSize: "3rem", marginBottom: "1rem" }}>
+      <Text role="img" aria-label="hammer" style={{ fontSize: "3rem", marginBottom: "1rem" }}>
         🛠️
-      </span>
-      <span>Under construction...</span>
-    </div>
+      </Text>
+      <Text>Under construction...</Text>
+    </Stack>
   );
 }
