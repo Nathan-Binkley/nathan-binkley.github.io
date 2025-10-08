@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import { AppShellFooter, MantineProvider, Text } from "@mantine/core";
