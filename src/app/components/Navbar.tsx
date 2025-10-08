@@ -25,8 +25,8 @@ export default function Navbar() {
                     <Link href="/" className={styles.navLink}>
                         Home
                     </Link>
-                    <Link href="/games" className={styles.navLink}>
-                        Games
+                    <Link href="/projects" className={styles.navLink}>
+                        Projects
                     </Link>
                     <Link href="/about" className={styles.navLink}>
                         About
@@ -58,8 +58,8 @@ export default function Navbar() {
                 <Link href="/" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>
                     Home
                 </Link>
-                <Link href="/games" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>
-                    Games
+                <Link href="/projects" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>
+                    Projects
                 </Link>
                 <Link href="/about" className={styles.mobileNavLink} onClick={() => setIsMenuOpen(false)}>
                     About
