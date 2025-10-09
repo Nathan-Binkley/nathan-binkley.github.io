@@ -18,7 +18,12 @@ import { MdCode, MdStorage, MdCloud, MdEmojiEvents, MdEmail, MdPhone } from "rea
 import { FaGithub } from "react-icons/fa";
 import quotes from "./data/quotes.json";
 
-const startDate = new Date("2025-10-08");
+interface Quote {
+  quote: string;
+  author: string;
+}
+
+const startDate = new Date("2025-10-09");
 
 function getTodaysQuote() {
   const today = new Date();
@@ -31,7 +36,7 @@ export default function Home() {
 
   const theme = useMantineTheme();
 
-  const quote = getTodaysQuote();
+  const quote = getTodaysQuote() as Quote;
 
   return (
     <Container size={1600} p="md">
