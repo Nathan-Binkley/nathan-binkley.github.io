@@ -26,9 +26,10 @@ export default function NotFound() {
                 style={{
                     display: "inline-block",
                     padding: "0.75rem 2rem",
-                    background: "#171717",
-                    color: "var(--background)",
+                    background: "var(--background)",
+                    color: "var(--foreground)",
                     borderRadius: "0.5rem",
+                    border: "1px solid var(--foreground)",
                     fontWeight: 600,
                     textDecoration: "none",
                     transition: "background 0.2s",

@@ -1,15 +1,15 @@
 [
     {
         "quote": "We accept the love we think we deserve.",
-        "author": "Stephen Chbosky"
+        "author": "Stephen Chbosky (The Perks of Being a Wallflower)"
     },
     {
         "quote": "It's not your fault.",
-        "author": "Ben Affleck & Matt Damon"
+        "author": "Ben Affleck & Matt Damon (Good Will Hunting)"
     },
     {
         "quote": "Sometimes the best way to solve your own problems is to help someone else.",
-        "author": "Uncle Iroh"
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
     },
     {
         "quote": "The only way to do great work is to love what you do.",
@@ -17,15 +17,15 @@
     },
     {
         "quote": "We have to be greater than what we suffer.",
-        "author": "Peter Parker"
+        "author": "Peter Parker (Spider-Man)"
     },
     {
         "quote": "No amount of money ever bought a second of time.",
-        "author": "Tony Stark"
+        "author": "Tony Stark (Iron Man)"
     },
     {
         "quote": "Don't Rush.",
-        "author": "Jones Soda Co"
+        "author": "Jones Soda Co (Jones Soda)"
     },
     {
         "quote": "Some men are born great, others achieve greatness.",
@@ -37,7 +37,7 @@
     },
     {
         "quote": "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.",
-        "author": "Ferris Bueller"
+        "author": "Ferris Bueller (Ferris Bueller's Day Off)"
     },
     {
         "quote": "Do, or do not. There is no try.",
@@ -153,7 +153,7 @@
     },
     {
         "quote": "It's not about how hard you can hit, it's about how hard you can get hit and keep moving forward.",
-        "author": "Rocky Balboa"
+        "author": "Rocky Balboa (Rocky)"
     },
     {
         "quote": "You never know what's gonna come through that door.",
@@ -197,7 +197,7 @@
     },
     {
         "quote": "Elementary, my dear Watson.",
-        "author": "Sherlock Holmes"
+        "author": "Sherlock Holmes (Sherlock Holmes)"
     },
     {
         "quote": "I see dead people.",
@@ -213,7 +213,7 @@
     },
     {
         "quote": "I'll be back.",
-        "author": "The Terminator"
+        "author": "The Terminator (Terminator)"
     },
     {
         "quote": "Roads? Where we're going we don't need roads.",
@@ -277,7 +277,7 @@
     },
     {
         "quote": "Life is like a box of chocolates.",
-        "author": "Forrest Gump"
+        "author": "Forrest Gump (Forrest Gump)"
     },
     {
         "quote": "I see now that the circumstances of one's birth are irrelevant. It is what you do with the gift of life that determines who you are.",
@@ -289,7 +289,7 @@
     },
     {
         "quote": "It's not who you are that holds you back, it's who you think you're not.",
-        "author": "Coach Carter"
+        "author": "Coach Carter (Coach Carter)"
     },
     {
         "quote": "Sometimes the right path is not the easiest one.",
@@ -309,7 +309,7 @@
     },
     {
         "quote": "All you need is faith, trust, and a little bit of pixie dust.",
-        "author": "Peter Pan"
+        "author": "Peter Pan (Peter Pan)"
     },
     {
         "quote": "The way to get started is to quit talking and begin doing.",
@@ -317,7 +317,7 @@
     },
     {
         "quote": "Life's not about how hard of a hit you can give... it's about how many you can take, and still keep moving forward.",
-        "author": "Rocky Balboa"
+        "author": "Rocky Balboa (Rocky)"
     },
     {
         "quote": "Do not go gentle into that good night.",
@@ -458,5 +458,46 @@
     {
         "quote": "Life is either a daring adventure or nothing at all.",
         "author": "Amelia Brand (Interstellar)"
+    },
+    {
+        "quote": "Sometimes the best way to solve your own problems is to help someone else.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "While it is always best to believe in oneself, a little help from others can be a great blessing.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "Life happens wherever you are, whether you make it or not.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "Failure is only the opportunity to begin again. Only this time, more wisely.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "It is important to draw wisdom from many different places. If you take it from only one place it becomes rigid and stale.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "In the darkest times, hope is something you give yourself. That is the meaning of inner strength.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "Destiny is a funny thing. You never know how things are going to work out.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "Sometimes life is like this dark tunnel. You can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "Sharing tea with a fascinating stranger is one of life's true delights.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
+    },
+    {
+        "quote": "You must look within yourself to save yourself from your other self. Only then will your true self reveal itself.",
+        "author": "Uncle Iroh (Avatar: The Last Airbender)"
     }
+]
 ]

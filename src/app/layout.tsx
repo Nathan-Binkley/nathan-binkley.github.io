@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Suspense } from "react";
 import Navbar from "./components/Navbar";
-import { AppShellFooter, MantineProvider, Text } from "@mantine/core";
+import { AppShellFooter, createTheme, MantineProvider, Text } from "@mantine/core";
 import Footer from "./components/Footer";
 import { ModalsProvider } from "@mantine/modals";
+import theme from "./theme";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,10 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
+  const customTheme = createTheme(theme);
+
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <MantineProvider>
+        <MantineProvider theme={customTheme}>
           <ModalsProvider>
             <Navbar />
             <Suspense fallback={<div>Loading...</div>}>

@@ -34,12 +34,12 @@ export default function Home() {
   const quote = getTodaysQuote();
 
   return (
-    <Container size="lg" p="xl" px="15px">
+    <Container size={1600} p="md">
       {/* Hero Section */}
-      <Stack gap="xl" px="15px" align="center">
-        <Stack align="center" gap="md">
-          <Text style={{ fontSize: 42, color: "var(--mantine-color-gray-6)", textAlign: "right" }}>{quote.quote}</Text>
-          <Text style={{ fontSize: 24, color: "var(--mantine-color-gray-6)", textAlign: "right" }}>~{quote.author}</Text>
+      <Stack align="center">
+        <Stack align="center">
+          <Text style={{ fontSize: 36, color: "var(--mantine-color-gray-6)", textAlign: "right" }}>{quote.quote}</Text>
+          <Text style={{ fontSize: 18, color: "var(--mantine-color-gray-6)", textAlign: "right" }}>~{quote.author}</Text>
         </Stack>
       </Stack>
     </Container>
